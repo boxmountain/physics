@@ -1,3 +1,97 @@
+<!DOCTYPE html>
 <html>
-  <p>PLACHOLDER</p>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jordan Lee</title>
+	<link href="https://fonts.googleapis.com/css?family=Cantarell|Barlow" rel="stylesheet">
+	<style>
+		body, html {
+			height: 115%;
+			margin: 0;
+		}
+
+		.homeImg {
+			/* background-image: url(""); */
+			height: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+
+		div.name {
+		  position: absolute;
+		  top: 35%;
+		  left: 30%;
+		  transform: translate(-50%, -50%);
+		}
+
+		.name h1 {
+			color: #ffffff;
+			font-family: "Cantarell", serif;
+			font-weight: 400;
+			font-size: 4em;
+			line-height: 55px;
+		}
+
+		.name h2 {
+			color: #ffffff;
+			margin-left: 8%;
+			font-family: "Barlow", serif;
+			font-weight: 400;
+			font-size: 1.2em;
+			line-height: 25px;
+		}
+
+		.gridContainer {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			margin-top: -10%;
+			margin-bottom: 5%;
+			text-align: center;
+		}
+
+		a.nav {
+			color: #ffffff;
+			text-decoration: none;
+			font-size: 1.5em;
+		}
+
+		a.nav:visited {
+			color: #ffffff;
+		}
+
+		button.homeNav {
+			background-color: rgba(255, 255, 255, 0.1);
+			padding: 4% 10% 4% 10%;
+			border-style: none;
+			border-radius: 4px;
+			font-family: "Cantarell";
+			border: 1px solid #ffffff;
+		}
+	</style>
+</head>
+<body>
+	<div class="homeImg">
+		<img src="https://thumbs-prod.si-cdn.com/n7Z82GD9Eav_CtpnzizNo66-dKc=/420x240/https://public-media.si-cdn.com/filer/d6/93/d6939718-4e41-44a8-a8f3-d13648d2bcd0/c3npbx.jpg">
+	</div>
+	<main>
+		<div class="name">
+			<h1>Jordan Lee</h1>
+			<h2>Aspiring physicist in Logan, UT</h2>
+		</div>
+		<div class="gridContainer">
+			<div class="gridSection1">
+				<button class="homeNav"><a href class="nav">Projects</a></button>
+			</div>
+			<div class="gridSection2">
+				<button class="homeNav"><a href class="nav"><span>Curriculum Vitae</span></a></button>
+			</div>
+			<div class="gridSection3">
+				<button class="homeNav"><a href class="nav"><span>Miscellaneous</span></a></button>
+			</div>
+		</div>
+	</main>
+	<footer>
+	</footer>
+</body>
 </html>
